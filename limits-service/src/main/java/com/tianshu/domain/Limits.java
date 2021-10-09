@@ -1,31 +1,31 @@
 package com.tianshu.domain;
 
 public class Limits {
-    private int max;
-    private int min;
+    private int minimum;
+    private int maximum;
 
     public Limits() {
     }
 
-    public Limits(int max, int min) {
+    public Limits(int minimum,int maximum) {
         super();
-        this.max = max;
-        this.min = min;
+        this.maximum = maximum;
+        this.minimum = minimum;
     }
 
-    public int getMax() {
-        return max;
+    public int getMaximum() {
+        return maximum;
     }
 
-    public void setMax(int max) {
-        this.max = max;
+    public void setMaximum(int maximum) {
+        this.maximum = maximum;
     }
 
-    public int getMin() {
-        return min;
+    public int getMinimum() {
+        return minimum;
     }
 
-    public void setMin(int min) {
-        this.min = min;
+    public void setMinimum(int minimum) {
+        this.minimum = minimum;
     }
 }

@@ -24,6 +24,7 @@ public class CurrencyConversionController {
         BigDecimal quantity = request.getQuantity();
         BigDecimal conversionMultiple = currencyConversion.getConversionMultiple();
         currencyConversion.setTotalCalculatedAmount(quantity.multiply(conversionMultiple));
+        currencyConversion.setQuantity(quantity);
 
         return currencyConversion;
 

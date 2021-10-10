@@ -21,7 +21,7 @@ public class CurrencyExchangeController {
 
     @PostMapping("/currency-exchange")
     public CurrencyExchange getCurrencyExchange(@RequestBody CurrencyExchangeRequest request){
-        CurrencyExchange currencyExchange = currencyExchangeService.getCurrencyExchange(request.getFrom(),request.getTo());
+        CurrencyExchange currencyExchange = currencyExchangeService.getCurrencyExchange(request);
         currencyExchange.setPort(environment.getProperty("server.port"));
 
         return currencyExchange;

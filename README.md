@@ -8,6 +8,8 @@
 | Currency Conversion Service | 8200. 8201, ... |
 | Eureka Naming Server | 8761 |
 | Api Gateway| 8765 |
+### Arquitectura
+![Cow4](https://raw.githubusercontent.com/TianshuWang/MicroserviceV2/master/arquitectura.png?token=AI7Y4WEG6INXX7RT3VRJAILBMJVKC "Cow4")
 ### spring-cloud-config-server
 * default: http://localhost:8888/limits-service/default
 * dev: http://localhost:8888/limits-service/dev

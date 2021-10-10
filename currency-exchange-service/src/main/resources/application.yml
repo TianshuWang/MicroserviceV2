@@ -13,9 +13,19 @@ spring:
   jpa:
     show-sql: true
     defer-datasource-initialization: true
+  cloud:
+    discovery:
+      enabled: true
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
 server:
   port: 8100
 eureka:
   client:
     service-url:
       default-zone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost

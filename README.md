@@ -7,6 +7,7 @@
 | Currency Exchange Service | 8100, 8101, ... |
 | Currency Conversion Service | 8200. 8201, ... |
 | Eureka Naming Server | 8761 |
+| Api Gateway| 8765 |
 ### spring-cloud-config-server
 * default: http://localhost:8888/limits-service/default
 * dev: http://localhost:8888/limits-service/dev
@@ -21,3 +22,7 @@
 * http://localhost:8200/currency-conversion
 ### eureka-naming-server
 * http://localhost:8761
+### api-gateway
+* http://localhost:8765/currency-exchange-service/currency-exchange
+* http://localhost:8765/currency-conversion-service/currency-conversion
+

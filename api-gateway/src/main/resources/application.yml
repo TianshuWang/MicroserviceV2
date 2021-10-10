@@ -1,10 +1,8 @@
 spring:
   application:
-    name: currency-conversion-service
+    name: api-gateway
   config:
     import: optional:configserver:http://localhost:8888
-  profiles:
-    active: dev
   cloud:
     discovery:
       enabled: true
@@ -14,7 +12,7 @@ spring:
           enabled: true
           lower-case-service-id: true
 server:
-  port: 8200
+  port: 8765
 eureka:
   client:
     service-url:

@@ -12,3 +12,9 @@
 * qa: http://localhost:8888/limits-service/qa
 ### limits-service
 * http://localhost:8080/limits
+### H2 database console
+* http://localhost:8100/h2-console
+### currency-exchange-service
+* http://localhost:8100/currency-exchange
+### currency-conversion-service
+* http://localhost:8200/currency-conversion

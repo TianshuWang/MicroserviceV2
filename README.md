@@ -29,7 +29,7 @@
 ### api-gateway
 * http://localhost:8765/currency-exchange-service/currency-exchange
 * http://localhost:8765/currency-conversion-service/currency-conversion
-##Spring Cloud Gateway
+## Spring Cloud Gateway
 * Simple, yet effective way to route to APIs
 * Provide cross-cutting concerns
     - Security

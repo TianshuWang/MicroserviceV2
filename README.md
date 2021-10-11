@@ -29,4 +29,15 @@
 ### api-gateway
 * http://localhost:8765/currency-exchange-service/currency-exchange
 * http://localhost:8765/currency-conversion-service/currency-conversion
+##Spring Cloud Gateway
+* Simple, yet effective way to route to APIs
+* Provide cross-cutting concerns
+    - Security
+    - Monitoring/metrics
+* Built on top of Spring Webflux(Reactive Approach)
+* Features:
+    - Match routes on any request attribute
+    - Define predicates and filters
+    - Integrates with Spring Cloud Discovery Client(Load Balancing)
+    - Path rewriting
 

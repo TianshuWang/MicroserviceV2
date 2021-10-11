@@ -29,3 +29,17 @@ eureka:
       default-zone: http://localhost:8761/eureka
   instance:
     hostname: localhost
+resilience4j:
+  retry:
+    instances:
+      #default:
+        #failureRateThreshold: 90
+      sample-api:
+        maxRetryAttempts: 5
+        waitDuration: 1s
+        enableExponentialBackoff: true
+  rateLimiter:
+    instances:
+      default:
+        limitForPeriod: 2
+        limitRefreshPeriod: 10s

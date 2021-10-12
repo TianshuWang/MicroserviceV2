@@ -21,10 +21,14 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: true
+  sleuth:
+    sampler:
+      probability: 1.0
 server:
   port: 8100
 eureka:
   client:
+    fetch-registry: true
     service-url:
       default-zone: http://localhost:8761/eureka
   instance:

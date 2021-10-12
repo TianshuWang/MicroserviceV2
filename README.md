@@ -10,7 +10,7 @@
 | Api Gateway| 8765 |
 
 ### Arquitectura
-![Cow4](https://raw.githubusercontent.com/TianshuWang/MicroserviceV2/master/arquitectura.png?token=AI7Y4WAV4BVYZI47UFSGRPDBMMGRU "Cow4")
+![Cow4](https://raw.githubusercontent.com/TianshuWang/MicroserviceV2/master/arquitectura.png?token=AI7Y4WCGEQ4SZ3AZC43ZQX3BMTJ22 "Cow4")
 
 ### spring-cloud-config-server
 * default: http://localhost:8888/limits-service/default
